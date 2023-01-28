@@ -28,7 +28,7 @@ public class insert_data1 {
 		} 
 		catch (Exception e)
 		{
-			System.out.println("Data not inserted");
+			e.printStackTrace();
 		}
 
 	}
