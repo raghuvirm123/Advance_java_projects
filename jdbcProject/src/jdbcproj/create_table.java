@@ -25,7 +25,7 @@ public class create_table
 		}
 		catch(Exception e)
 		{
-			System.out.println("table not created");
+			e.printStackTrace();
 		}
 		
 	}
